@@ -1,9 +1,5 @@
 body{
-    background-color: ivory;
-    background-image: url(onMouse.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  margin: 0;
 }
 .pageHead{
     width: 100%;
@@ -11,6 +7,7 @@ body{
     font-size: 80px;
     text-align: center;
     vertical-align: middle;
+    color:white;
 }
 
 #start_button{
@@ -21,7 +18,7 @@ body{
     -ms-transform: translate(-50%, -50%);
     background-color: #f1f1f1;
     color: black;
-    font-size: 16px;
+    font-size: 44px;
     padding: 16px 30px;
     border: none;
     cursor: pointer;
@@ -32,4 +29,20 @@ body{
 #start_button:hover{
     background-color: black;
     color: white;
+}
+.head{
+  background-color: ivory;
+  background-image: url(onMouse.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-shadow: 0 2px dimgrey, 2px 0 black;
+}
+#grid{
+  display: grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 50px;
+}
+.item{
+  display: flex;
 }
